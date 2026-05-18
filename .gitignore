@@ -1,0 +1,24 @@
+# Build artifacts
+patched.bin
+patched_info.xml
+
+# Sony's IP — fetch fresh from their CDN; don't redistribute
+voice-packs/
+info_*.bin
+
+# Working dirs from extract_slots.py
+slots/
+slots_*/
+
+# Local dev junk
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.DS_Store
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
